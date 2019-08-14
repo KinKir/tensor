@@ -18,9 +18,9 @@ type DataChans []DataChan
 func (t *DataChans) Len() int {
 	return len(*t)
 }
-func (t *DataChans) Less(i, j int) bool {
+/*func (t *DataChans) Less(i, j int) bool {
 
-}
+}*/
 func (t *DataChans) Swap(i, j int) {
 }
 
@@ -72,6 +72,7 @@ func (t *Int32) AddInt(i *Int32) (rest Int32) {
 	for _, v := range tempChan {
 
 	}*/
+	return
 }
 func ProdIntsGo(a []int, num int) (retVal int) {
 	aLen := len(a)
